@@ -7,7 +7,7 @@ const GEMINI_API_KEY = ""YOUR_GEMINI_API_KEY_HERE";
 
 // 글로벌 비즈니스 고정 값 및 환경 설정
 const BASE_URL_BAEUMSOOP = "https://sugang.seongnam.go.kr";
-const LIB_CONTACT_DEFAULT = "성남중원도서관  (031-724-0674)";
+const LIB_CONTACT_DEFAULT = "성남중원도서관  ";
 const MODEL_NAME = "gemini-3.5-flash";
 const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/${MODEL_NAME}:generateContent?key=${GEMINI_API_KEY}`;
 
